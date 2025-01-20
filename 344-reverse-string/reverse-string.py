@@ -3,9 +3,9 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        n = len(s)
+        
         start = 0
-        end = n - 1
+        end = len(s) - 1
         while start < end:
             s[start] , s[end] = s[end] , s[start]
             start += 1
