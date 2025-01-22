@@ -13,13 +13,5 @@ class Solution:
             prev = current 
             current = next
         return prev 
-    def push(self, head: Optional[ListNode], new_data: int) -> ListNode:
-        new_node = Node(new_data) 
-        new_node.next = head 
-        return new_node
-    def printList(self, head: Optional[ListNode]) -> None:
-        temp = head 
-        while(temp): 
-            print (temp.data,end=" ") 
-            temp = temp.next
+    
         
